@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+    background-color: #EFF3F6;
+}
+header {
+    background-color: #F24B59;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+#liste {
+    padding: 20px;
+}
+#liste article {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    max-width: 500px;
+}
+form[name='note'] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+form > input, form > textarea {
+    display: block;
+}
+form > textarea {
+    width: 100%;
+    padding: 10px 20px;
+}
+form > input {
+    background-color: #F24B59;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
